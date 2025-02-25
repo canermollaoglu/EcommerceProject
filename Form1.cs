@@ -21,5 +21,10 @@ namespace EcommerceProject
                 throw new Exception("Hata");
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Test");
+        }
     }
 }
